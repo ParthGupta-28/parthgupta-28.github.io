@@ -38,7 +38,7 @@ function App() {
           justifyContent={"center"}
           color="white"
         >
-          <Box boxSize="5rem" justifyContent={"center"}>
+          <Box boxSize="5rem">
             <Link href="https://twitter.com/ParthGupta2002" isExternal>
               <IconButton
                 icon={<BsTwitter />}
@@ -47,13 +47,13 @@ function App() {
                 sx={{ fontSize: "3rem", boxSize: "4rem" }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem", margin: "-1px" }}
+                _hover={{ boxSize: "4.5rem" }}
                 color="white"
               ></IconButton>
             </Link>
           </Box>
 
-          <Box boxSize="5rem" justifyContent={"center"}>
+          <Box boxSize="5rem">
             <Link href="https://github.com/ParthGupta-28" isExternal>
               <IconButton
                 icon={<BsGithub />}
@@ -65,13 +65,13 @@ function App() {
                 }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem", margin: "-1px" }}
+                _hover={{ boxSize: "4.5rem" }}
                 color="white"
               ></IconButton>
             </Link>
           </Box>
 
-          <Box boxSize="5rem" justifyContent={"center"}>
+          <Box boxSize="5rem">
             <Link href="https://www.linkedin.com/in/parthgupta2809" isExternal>
               <IconButton
                 icon={<BsLinkedin />}
@@ -80,13 +80,13 @@ function App() {
                 sx={{ fontSize: "2.5rem", boxSize: "4rem" }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem", margin: "-1px" }}
+                _hover={{ boxSize: "4.5rem" }}
                 color="white"
               ></IconButton>
             </Link>
           </Box>
 
-          <Box boxSize="5rem" justifyContent={"center"}>
+          <Box boxSize="5rem">
             <Link href="mailto: pg6272695@gmail.com" isExternal>
               <IconButton
                 icon={<GrMail />}
@@ -95,7 +95,7 @@ function App() {
                 sx={{ fontSize: "3rem", boxSize: "4rem" }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem", margin: "-1px" }}
+                _hover={{ boxSize: "4.5rem" }}
                 color="white"
               ></IconButton>
             </Link>
