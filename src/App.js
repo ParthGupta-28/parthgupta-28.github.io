@@ -1,6 +1,5 @@
 import "./App.css";
 import {
-  Box,
   Flex,
   Heading,
   HStack,
@@ -32,13 +31,16 @@ function App() {
         <HStack
           className="notshow"
           position="initial"
-          spacing="2rem"
+          spacing="2.5rem"
           height="5rem"
           width={"100%"}
           justifyContent={"center"}
           color="white"
         >
-          <Box boxSize="5rem">
+          <motion.div
+            whileHover={{ scale: 1.3 }}
+            transition={{ duration: 0.3 }}
+          >
             <Link href="https://twitter.com/ParthGupta2002" isExternal>
               <IconButton
                 icon={<BsTwitter />}
@@ -47,13 +49,16 @@ function App() {
                 sx={{ fontSize: "3rem", boxSize: "4rem" }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem" }}
                 color="white"
+                _hover={{}}
               ></IconButton>
             </Link>
-          </Box>
+          </motion.div>
 
-          <Box boxSize="5rem">
+          <motion.div
+            whileHover={{ scale: 1.3 }}
+            transition={{ duration: 0.3 }}
+          >
             <Link href="https://github.com/ParthGupta-28" isExternal>
               <IconButton
                 icon={<BsGithub />}
@@ -65,13 +70,16 @@ function App() {
                 }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem" }}
                 color="white"
+                _hover={{}}
               ></IconButton>
             </Link>
-          </Box>
+          </motion.div>
 
-          <Box boxSize="5rem">
+          <motion.div
+            whileHover={{ scale: 1.3 }}
+            transition={{ duration: 0.3 }}
+          >
             <Link href="https://www.linkedin.com/in/parthgupta2809" isExternal>
               <IconButton
                 icon={<BsLinkedin />}
@@ -80,13 +88,16 @@ function App() {
                 sx={{ fontSize: "2.5rem", boxSize: "4rem" }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem" }}
                 color="white"
+                _hover={{}}
               ></IconButton>
             </Link>
-          </Box>
+          </motion.div>
 
-          <Box boxSize="5rem">
+          <motion.div
+            whileHover={{ scale: 1.3 }}
+            transition={{ duration: 0.3 }}
+          >
             <Link href="mailto: pg6272695@gmail.com" isExternal>
               <IconButton
                 icon={<GrMail />}
@@ -95,11 +106,11 @@ function App() {
                 sx={{ fontSize: "3rem", boxSize: "4rem" }}
                 variant="outline"
                 borderColor={"white"}
-                _hover={{ boxSize: "4.5rem" }}
                 color="white"
+                _hover={{}}
               ></IconButton>
             </Link>
-          </Box>
+          </motion.div>
         </HStack>
       </VStack>
     </motion.div>
