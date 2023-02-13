@@ -18,7 +18,7 @@ function App() {
       transition={{ delay: 0.3, duration: 0.8 }}
       initial={{ opacity: 0 }}
     >
-      <VStack>
+      <VStack maxW={{ base: "90vw", sm: "80vw", lg: "50vw" }}>
         <Flex justifyContent={"center"} alignItems={"center"} mt="13%">
           <Heading
             sx={{
